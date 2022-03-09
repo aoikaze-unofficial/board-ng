@@ -1,4 +1,4 @@
-# Nextra Simple Doc Template
+# 风蓝 Galgame 群公告板 NG
 
-A template building documents with Nextra
+内容填充中
 
