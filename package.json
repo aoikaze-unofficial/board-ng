@@ -1,7 +1,7 @@
 {
-  "name": "nextra-simple-doc-template",
+  "name": "aoiakze-galgame-group-board-ng",
   "version": "0.0.1",
-  "description": "A self-use simple template repository of Nextra.",
+  "description": "New generation of our call-board, powered by Next.js and React.",
   "author": "Nanami",
   "license": "MIT",
   "scripts": {
