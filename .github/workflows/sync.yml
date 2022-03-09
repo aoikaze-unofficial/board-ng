@@ -1,0 +1,43 @@
+name: Sync with personal account to trigger Vercel
+
+on:
+  push: 
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  push:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Setup SSH and Git
+        env:
+          SSH_SECRET_KEY: ${{ secrets.SSH_SECRET_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_SECRET_KEY" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.email "bot@aoikaze.ml"
+          git config --global user.name "Auto Sync BOT"
+      
+      - name: Anto sync
+        env:
+          TARGET_REPO: ${{ secrets.TARGET_REPO }}
+        run: |
+          rm -rf .git/
+          git init
+          echo ".github" >> .gitignore
+          echo "This repositry is update automatically. No need to edit." >> README.md
+          git add .
+          git commit -m "Automatically updated."
+          git branch -M main
+          git remote add origin $TARGET_REPO
+          git push -u -f origin main
