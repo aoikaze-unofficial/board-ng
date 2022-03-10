@@ -1,15 +1,12 @@
-# 风蓝 Galgame 群公告板
+# 新人导引
 
-作为群公告的拓展使用，已绑定域名使用
+> 旧的公告板的导引链接在这里：
+>
+> - [一些可能有用的网站](https://aoikaze-unofficial.github.io/announcements/navigation)
+> - [一些可能有用的工具](https://aoikaze-unofficial.github.io/announcements/tools)
+>
+> 这些页面也在本公告板中有对应的重建版本。
 
-目前兼具群导引的功能，欢迎大家共同建设！（PR & 私聊均可）
-
-## 页面列表
-
-- [一些可能有用的网站](/announcements/navigation)
-- [一些可能有用的工具](/announcements/tools)
-
-## 更新日程
-
-如果群友还需要或者还愿意贡献一些导引供新人使用，也可以在群里提出建议或者私聊我。
-
+<center>
+![qingqiang](/image/qingqiang.jpg)
+</center>

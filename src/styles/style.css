@@ -1,3 +1,19 @@
 html {
     font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
 }
+
+.table-container:not(:first-child), 
+blockquote:not(:first-child), 
+p:not(:first-child),
+center:not(:first-child) {
+    margin-top: 1rem !important;
+}
+
+.hover\:opacity-75:hover,
+.hover\:opacity-75 {
+    transition: all ease 0.25s;
+}
+
+article blockquote {
+    font-style: normal !important;
+}

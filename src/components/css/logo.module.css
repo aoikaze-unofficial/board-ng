@@ -5,4 +5,13 @@
 
 .logo__subtitle {
     opacity: 0.3;
+    font-size: 11px;
+}
+
+@media screen and (max-width:400px) {
+    .logo__subtitle {display: none;}
+}
+
+@media screen and (max-width:360px) {
+    .logo__title {display: none;}
 }
