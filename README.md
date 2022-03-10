@@ -6,6 +6,8 @@
 
 部署地址：<https://doc.aoikaze.ml>
 
+> **注意**：Vercel 自动增量部署时可能出现与本地预览不符的情况，这很可能是 `Nextra` 的一个 Issue；解决方法是进入 Vercel 重新部署，并清除 build cache。
+
 ### 本地测试
 
 按照下面的步骤进行以启动本地预览
