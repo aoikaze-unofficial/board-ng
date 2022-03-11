@@ -17,3 +17,11 @@ center:not(:first-child) {
 article blockquote {
     font-style: normal !important;
 }
+
+.focus\:ring:focus {
+    box-shadow: none !important;
+}
+
+.sidebar a, .sidebar button {
+    line-height: 1.2rem !important;
+}

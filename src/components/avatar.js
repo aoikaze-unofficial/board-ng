@@ -1,14 +1,16 @@
 import Image from 'next/image'
-import style from './css/avatar.module.css'
+import styles from './css/avatar.module.css'
 
 export default function Avatar(props) {
 
-    const {size, src, alt, className} = props;
+    const {size, src, alt, className, style} = props;
 
-    return (<>
+    return (<div className={styles.avatar__container}
+        style={style ?? {}}
+    >
         <Image src={src} alt={alt} 
             width={size} height={size}
-            className={`${style.avatar} ${className ?? ''}`}
+            className={`${styles.avatar} ${className ?? ''}`}
         />
-    </>);
+    </div>);
 }
