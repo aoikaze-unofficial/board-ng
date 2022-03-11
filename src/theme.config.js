@@ -15,7 +15,7 @@ export default {
 	floatTOC: true,
 	defaultMenuCollapsed: true,
 	footer: true,
-	footerText: `于 ${new Date().getFullYear()} 构建 © Aoikaze Galgame Club.`,
+	footerText: `${new Date().getFullYear()} © Aoikaze Galgame Club.`,
 	footerEditLink: `在 Github 上编辑此页面`,
 	logo: (<Logo />),
 	head: (<>
