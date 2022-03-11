@@ -6,8 +6,6 @@
 
 部署地址：<https://doc.aoikaze.ml>
 
-> **注意**：Vercel 自动增量部署时可能出现与本地预览不符的情况，这很可能是 `Nextra` 的一个 Issue；解决方法是进入 Vercel 重新部署，并清除 build cache。
-
 ### 本地测试
 
 按照下面的步骤进行以启动本地预览
@@ -40,6 +38,16 @@
 
 ```json
 "文件名称（不包含扩展名）": "文章标题"
+```
+
+如果你要在某一个分栏下增加子目录，而这个子目录下没有 `index.md` 或 `index.mdx`，你就需要为这个子目录指定一个重定向；你可以在项目根目录的 `next.config.js` 中的 `module.exports` 部分中的 `redirects` 数组中按照如下格式增加重定向：
+
+```js
+{
+    source: '你的子目录的相对路径',
+    destination: '重定向到的页面的相对路径',
+    statusCode: 301
+}
 ```
 
 `pages/_app.js` 无需修改。
