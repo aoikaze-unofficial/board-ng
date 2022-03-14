@@ -29,3 +29,15 @@ article blockquote {
 .text-sm {
     text-decoration: none;
 }
+
+nav {
+    backdrop-filter: blur(20px) saturate(300%);
+}
+
+.bg-opacity-\[\.97\] {
+    --tw-bg-opacity: .9 !important;
+}
+
+.dark .dark\:border-gray-900 {
+    --tw-bg-opacity: .75 !important;
+}
