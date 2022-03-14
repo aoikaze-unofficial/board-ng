@@ -12,6 +12,11 @@ module.exports = withNextra({
 				source: '/blog/board',
 				destination: '/blog/board/readme',
 				statusCode: 301
+			},
+			{
+				source: '/blog/oneindex',
+				destination: '/blog/oneindex/readme',
+				statusCode: 301
 			}
 		]
 	}

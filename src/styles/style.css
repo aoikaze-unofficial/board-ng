@@ -25,3 +25,7 @@ article blockquote {
 .sidebar a, .sidebar button {
     line-height: 1.2rem !important;
 }
+
+.text-sm {
+    text-decoration: none;
+}
