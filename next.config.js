@@ -22,6 +22,11 @@ module.exports = withNextra({
 				source: '/blog/disclaimer',
 				destination: '/blog/disclaimer/disclaimer',
 				statusCode: 301
+			},
+			{
+				source: '/blog',
+				destination: '/blog/disclaimer/disclaimer',
+				statusCode: 301
 			}
 		]
 	}
