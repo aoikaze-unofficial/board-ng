@@ -10,3 +10,5 @@
 <center>
 ![qingqiang](/image/qingqiang.jpg)
 </center>
+
+也欢迎各位情强群友完善这些页面的建设；有想法可以联系群管理，或者直接在 Github 上编辑此页面。
