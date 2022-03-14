@@ -41,3 +41,7 @@ nav {
 .dark .dark\:border-gray-900 {
     --tw-bg-opacity: .75 !important;
 }
+
+code, kbd, pre, samp {
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,'Microsoft YaHei','PingFang SC',monospace !important;
+}
