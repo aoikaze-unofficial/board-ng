@@ -4,7 +4,7 @@
 
 ## 使用方法
 
-部署地址：<https://doc.aoikaze.ml>
+部署地址：<https://doc.aoikaze.org>
 
 ### 本地测试
 

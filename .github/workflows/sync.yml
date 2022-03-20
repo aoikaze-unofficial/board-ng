@@ -25,7 +25,7 @@ jobs:
           chmod 700 ~/.ssh
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.email "bot@aoikaze.ml"
+          git config --global user.email "bot@aoikaze.org"
           git config --global user.name "Auto Sync BOT"
       
       - name: Anto sync
