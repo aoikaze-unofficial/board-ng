@@ -4,7 +4,7 @@ import Logo from './components/logo';
 export default {
 	github: 'https://github.com/aoikaze-unofficial/board-ng',
 	projectLink: 'https://github.com/aoikaze-unofficial/board-ng', 
-	docsRepositoryBase: 'https://github.com/aoikaze-unofficial/board-ng/tree/main/src/pages',     
+	docsRepositoryBase: 'https://github.com/aoikaze-unofficial/board-ng/tree/main/pages',     
 	titleSuffix: ' – 风蓝 Galgame 群公告板',
 	nextLinks: true,
 	prevLinks: true,
