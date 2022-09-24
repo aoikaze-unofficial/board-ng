@@ -37,7 +37,7 @@
 
 | 网站                                    | 类型   | 备用网址                                             | 说明                                                         |
 | --------------------------------------- | ------ | ---------------------------------------------------- | ------------------------------------------------------------ |
-| [初音的青葱](https://www.yygal.com/)    | 资源站 | https://www.yygal.com/<br />https://www.yngal.com/   | 无门槛注册<br />但是需要两个月以上的注册用户才可以看到下载链接 |
+| [初音的青葱](www.xygalgame.com)    | 资源站 | https://www.yygal.com/<br />https://www.yngal.com/   | 无门槛注册<br />但是需要两个月以上的注册用户才可以看到下载链接 |
 | [Galgame 世界](https://acgngame.net/)   | 资源站 | n/a                                                  | 无需登录，但是链接补档较慢<br />以KRKR资源为主               |
 | [绅士天堂](https://www.acggalgame.com/) | 资源站 | n/a                                                  | 目前无门槛，但是曾经有过公众号<br />测试时可以直接使用       |
 | [GGBases](https://www.dlgal.com/)       | 资源站 | https://www.dlgal.com/<br />https://www.ggbases.com/ | 提供拔作的磁力链接和种子<br />需要使用相关的下载工具下载     |
